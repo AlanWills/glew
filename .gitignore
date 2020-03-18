@@ -1,0 +1,48 @@
+.idea
+build
+.project
+*.kdev4*
+.DS_Store
+
+# build artefacts
+*.o
+*.a
+
+# Visual Studio
+*.sln
+*.ncb
+*.vcproj
+*.vcxproj.user
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+*.ipch
+
+# Output
+bin/
+lib/
+
+# QtCreator
+CMakeLists.txt.user
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+cmake_uninstall.cmake
+*.dir/
+assimp-config.cmake
+assimp-config-version.cmake
+assimpTargets*.cmake
+
+# MakeFile
+Makefile
+code/Makefile
+test/Makefile
+test/headercheck/Makefile
+tools/assimp_cmd/Makefile
+
+# Tests
+test/results
+test/readlinetest*
